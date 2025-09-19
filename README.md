@@ -1,497 +1,173 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhilasha Kapadnis - Frontend Developer</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+# Hi 👋, I'm Abhilasha Kapadnis
 
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0d1117 0%, #21262d 100%);
-            color: #e6edf3;
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
+<div align="center">
+  
+### 🚀 A passionate frontend developer from India 🇮🇳
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Frontend+Developer;GitOps+Enthusiast;Problem+Solver;Always+Learning+New+Technologies" alt="Typing SVG" />
 
-        .header {
-            text-align: center;
-            margin-bottom: 3rem;
-            animation: fadeInUp 1s ease-out;
-        }
+![Profile Views](https://komarev.com/ghpvc/?username=abhilashk22&label=Profile%20views&color=0e75b6&style=flat)
 
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 4px solid #58a6ff;
-            margin: 0 auto 2rem;
-            background: linear-gradient(45deg, #58a6ff, #bc8cff);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
-            animation: float 3s ease-in-out infinite;
-        }
+</div>
 
-        .name {
-            font-size: 3.5rem;
-            font-weight: bold;
-            margin-bottom: 0.5rem;
-            background: linear-gradient(45deg, #58a6ff, #bc8cff, #f85149);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            animation: glow 2s ease-in-out infinite alternate;
-        }
+---
 
-        .title {
-            font-size: 1.5rem;
-            color: #7d8590;
-            margin-bottom: 2rem;
-            animation: typewriter 3s steps(40) 1s both;
-            overflow: hidden;
-            border-right: 2px solid #58a6ff;
-            white-space: nowrap;
-            width: 0;
-            margin: 0 auto 2rem;
-        }
+## 🌟 About Me
 
-        .stats-container {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 3rem;
-            animation: fadeInUp 1s ease-out 0.5s both;
-        }
+```javascript
+const abhilasha = {
+    location: "India 🇮🇳",
+    role: "Frontend Developer",
+    currentFocus: "GitOps & DevOps Workflows",
+    interests: ["Web Development", "Version Control", "Automation"],
+    funFact: "I believe every problem has an elegant solution ✨",
+    askMeAbout: ["Git", "GitHub", "GitOps", "Frontend Development"],
+    reachOut: "abhilashakapdnis@gmail.com"
+};
+```
 
-        .trophy-section {
-            background: rgba(22, 27, 34, 0.8);
-            border: 1px solid #30363d;
-            border-radius: 12px;
-            padding: 2rem;
-            backdrop-filter: blur(10px);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
+---
 
-        .trophy-section:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(88, 166, 255, 0.3);
-        }
+## 🔥 Current Focus
 
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-bottom: 3rem;
-        }
+🌱 **Learning:** GitOps - Modern DevOps workflows and deployment strategies  
+💡 **Exploring:** Advanced Git workflows and automation  
+🎯 **Goal:** Mastering the complete DevOps pipeline  
 
-        .info-card {
-            background: rgba(22, 27, 34, 0.8);
-            border: 1px solid #30363d;
-            border-radius: 12px;
-            padding: 2rem;
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-            animation: fadeInUp 1s ease-out;
-        }
+---
 
-        .info-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(88, 166, 255, 0.2);
-            border-color: #58a6ff;
-        }
+## 💬 Ask Me About
 
-        .info-card h3 {
-            color: #58a6ff;
-            margin-bottom: 1rem;
-            font-size: 1.3rem;
-        }
+| Technology | Expertise Level | Description |
+|------------|----------------|-------------|
+| 🔧 **Git** | Advanced | Version control mastery & complex workflows |
+| 🐙 **GitHub** | Expert | Collaboration, Actions, & project management |
+| ⚙️ **GitOps** | Learning | Modern deployment & infrastructure as code |
+| 🌐 **Frontend** | Intermediate | Web development & user interfaces |
 
-        .info-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 0.8rem;
-            transition: transform 0.3s ease;
-        }
+---
 
-        .info-item:hover {
-            transform: translateX(10px);
-        }
+## 🏆 GitHub Stats
 
-        .info-icon {
-            margin-right: 0.8rem;
-            color: #58a6ff;
-            font-size: 1.2rem;
-        }
+<div align="center">
 
-        .technologies {
-            margin-top: 3rem;
-            animation: fadeInUp 1s ease-out 1s both;
-        }
+[![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=abhilashk22&theme=radical&no-frame=false&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
 
-        .tech-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
+<img width="390" src="https://github-readme-stats.vercel.app/api?username=abhilashk22&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats"/>
 
-        .tech-item {
-            background: rgba(22, 27, 34, 0.8);
-            border: 1px solid #30363d;
-            border-radius: 12px;
-            padding: 1.5rem;
-            text-align: center;
-            transition: all 0.3s ease;
-            cursor: pointer;
-        }
+<img width="325" src="https://github-readme-streak-stats.herokuapp.com/?user=abhilashk22&theme=radical&hide_border=true" alt="GitHub Streak"/>
 
-        .tech-item:hover {
-            transform: translateY(-10px) scale(1.05);
-            box-shadow: 0 15px 30px rgba(88, 166, 255, 0.3);
-            border-color: #58a6ff;
-        }
+<img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhilashk22&layout=compact&theme=radical&hide_border=true" alt="Top Languages"/>
 
-        .tech-icon {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            display: block;
-        }
+</div>
 
-        .tech-name {
-            font-size: 0.9rem;
-            color: #7d8590;
-        }
+---
 
-        .contact-section {
-            text-align: center;
-            margin-top: 3rem;
-            padding: 2rem;
-            background: rgba(22, 27, 34, 0.8);
-            border: 1px solid #30363d;
-            border-radius: 12px;
-            animation: fadeInUp 1s ease-out 1.5s both;
-        }
+## 🛠️ Technologies & Tools
 
-        .email-link {
-            color: #58a6ff;
-            text-decoration: none;
-            font-size: 1.2rem;
-            transition: all 0.3s ease;
-        }
+### 💻 Programming Languages
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-        .email-link:hover {
-            color: #bc8cff;
-            text-shadow: 0 0 10px rgba(188, 140, 255, 0.5);
-        }
+### 🌐 Frontend Development
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Gatsby](https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-F5788D?style=for-the-badge&logo=chart.js&logoColor=white)
 
-        .particles {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: -1;
-        }
+### ☁️ Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-        .particle {
-            position: absolute;
-            background: #58a6ff;
-            border-radius: 50%;
-            animation: float-particle 15s linear infinite;
-        }
+### 🗄️ Database & Backend
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+### 🎨 Design & Others
+![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-20px); }
-        }
+### 🧪 Testing & Analytics
+![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
-        @keyframes glow {
-            from { text-shadow: 0 0 20px rgba(88, 166, 255, 0.5); }
-            to { text-shadow: 0 0 30px rgba(188, 140, 255, 0.8), 0 0 40px rgba(248, 81, 73, 0.3); }
-        }
+### 📱 Mobile Development
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
-        @keyframes typewriter {
-            to { width: 100%; }
-        }
+---
 
-        @keyframes float-particle {
-            0% {
-                transform: translateY(100vh) translateX(-10px);
-                opacity: 0;
-            }
-            10% {
-                opacity: 1;
-            }
-            90% {
-                opacity: 1;
-            }
-            100% {
-                transform: translateY(-100px) translateX(10px);
-                opacity: 0;
-            }
-        }
+## 🎯 What I'm Working On
 
-        @media (max-width: 768px) {
-            .container {
-                padding: 1rem;
-            }
-            
-            .name {
-                font-size: 2.5rem;
-            }
-            
-            .title {
-                font-size: 1.2rem;
-            }
-            
-            .tech-grid {
-                grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
-                gap: 1rem;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="particles" id="particles"></div>
-    
-    <div class="container">
-        <header class="header">
-            <div class="profile-img">👋</div>
-            <h1 class="name">Abhilasha Kapadnis</h1>
-            <p class="title">A passionate frontend developer from India</p>
-        </header>
+```bash
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'
 
-        <div class="stats-container">
-            <div class="trophy-section">
-                <h3>🏆 GitHub Achievements</h3>
-                <p>Building amazing projects with code and creativity</p>
-            </div>
-        </div>
+Changes to be committed:
+  📚 Learning GitOps fundamentals
+  🔧 Improving Git workflow automation
+  🌐 Building responsive frontend applications
+  ☁️ Exploring cloud-native technologies
+```
 
-        <div class="info-grid">
-            <div class="info-card">
-                <h3>🚀 Currently Working On</h3>
-                <div class="info-item">
-                    <span class="info-icon">🌱</span>
-                    <span>Learning <strong>GitOps</strong> for modern DevOps workflows</span>
-                </div>
-            </div>
+---
 
-            <div class="info-card">
-                <h3>💡 Ask Me About</h3>
-                <div class="info-item">
-                    <span class="info-icon">🔧</span>
-                    <span><strong>Git</strong> - Version control mastery</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-icon">🐙</span>
-                    <span><strong>GitHub</strong> - Collaboration & workflows</span>
-                </div>
-                <div class="info-item">
-                    <span class="info-icon">⚙️</span>
-                    <span><strong>GitOps</strong> - Modern deployment strategies</span>
-                </div>
-            </div>
-        </div>
+## 📊 Weekly Development Breakdown
 
-        <div class="contact-section">
-            <h3>📫 Let's Connect!</h3>
-            <p>Ready to collaborate on exciting projects?</p>
-            <a href="mailto:abhilashakapdnis@gmail.com" class="email-link">abhilashakapdnis@gmail.com</a>
-        </div>
+```text
+GitOps & DevOps    ████████████████░░░░░   75%
+Frontend Projects  ███████████░░░░░░░░░░░   55%
+Problem Solving    ██████████████░░░░░░░░   70%
+Learning New Tech  ████████████████████░   95%
+```
 
-        <div class="technologies">
-            <h2 style="text-align: center; color: #58a6ff; margin-bottom: 1rem;">🛠️ Technologies & Tools</h2>
-            
-            <div class="tech-grid">
-                <div class="tech-item" data-tech="Android">
-                    <span class="tech-icon">🤖</span>
-                    <div class="tech-name">Android</div>
-                </div>
-                <div class="tech-item" data-tech="Arduino">
-                    <span class="tech-icon">🔌</span>
-                    <div class="tech-name">Arduino</div>
-                </div>
-                <div class="tech-item" data-tech="AWS">
-                    <span class="tech-icon">☁️</span>
-                    <div class="tech-name">AWS</div>
-                </div>
-                <div class="tech-item" data-tech="Blender">
-                    <span class="tech-icon">🎨</span>
-                    <div class="tech-name">Blender</div>
-                </div>
-                <div class="tech-item" data-tech="C">
-                    <span class="tech-icon">⚡</span>
-                    <div class="tech-name">C</div>
-                </div>
-                <div class="tech-item" data-tech="Chart.js">
-                    <span class="tech-icon">📊</span>
-                    <div class="tech-name">Chart.js</div>
-                </div>
-                <div class="tech-item" data-tech="C++">
-                    <span class="tech-icon">🔥</span>
-                    <div class="tech-name">C++</div>
-                </div>
-                <div class="tech-item" data-tech="CSS3">
-                    <span class="tech-icon">🎨</span>
-                    <div class="tech-name">CSS3</div>
-                </div>
-                <div class="tech-item" data-tech=".NET">
-                    <span class="tech-icon">🔷</span>
-                    <div class="tech-name">.NET</div>
-                </div>
-                <div class="tech-item" data-tech="Firebase">
-                    <span class="tech-icon">🔥</span>
-                    <div class="tech-name">Firebase</div>
-                </div>
-                <div class="tech-item" data-tech="Gatsby">
-                    <span class="tech-icon">🚀</span>
-                    <div class="tech-name">Gatsby</div>
-                </div>
-                <div class="tech-item" data-tech="GCP">
-                    <span class="tech-icon">🌐</span>
-                    <div class="tech-name">GCP</div>
-                </div>
-                <div class="tech-item" data-tech="Git">
-                    <span class="tech-icon">📚</span>
-                    <div class="tech-name">Git</div>
-                </div>
-                <div class="tech-item" data-tech="HTML5">
-                    <span class="tech-icon">🌐</span>
-                    <div class="tech-name">HTML5</div>
-                </div>
-                <div class="tech-item" data-tech="Java">
-                    <span class="tech-icon">☕</span>
-                    <div class="tech-name">Java</div>
-                </div>
-                <div class="tech-item" data-tech="Jest">
-                    <span class="tech-icon">🃏</span>
-                    <div class="tech-name">Jest</div>
-                </div>
-                <div class="tech-item" data-tech="MongoDB">
-                    <span class="tech-icon">🍃</span>
-                    <div class="tech-name">MongoDB</div>
-                </div>
-                <div class="tech-item" data-tech="Node.js">
-                    <span class="tech-icon">💚</span>
-                    <div class="tech-name">Node.js</div>
-                </div>
-                <div class="tech-item" data-tech="Pandas">
-                    <span class="tech-icon">🐼</span>
-                    <div class="tech-name">Pandas</div>
-                </div>
-                <div class="tech-item" data-tech="Photoshop">
-                    <span class="tech-icon">🖼️</span>
-                    <div class="tech-name">Photoshop</div>
-                </div>
-                <div class="tech-item" data-tech="Python">
-                    <span class="tech-icon">🐍</span>
-                    <div class="tech-name">Python</div>
-                </div>
-                <div class="tech-item" data-tech="Sass">
-                    <span class="tech-icon">💅</span>
-                    <div class="tech-name">Sass</div>
-                </div>
-                <div class="tech-item" data-tech="Spring">
-                    <span class="tech-icon">🌱</span>
-                    <div class="tech-name">Spring</div>
-                </div>
-                <div class="tech-item" data-tech="Unity">
-                    <span class="tech-icon">🎮</span>
-                    <div class="tech-name">Unity</div>
-                </div>
-            </div>
-        </div>
-    </div>
+---
 
-    <script>
-        // Create floating particles
-        function createParticles() {
-            const particlesContainer = document.getElementById('particles');
-            
-            for (let i = 0; i < 50; i++) {
-                const particle = document.createElement('div');
-                particle.className = 'particle';
-                particle.style.left = Math.random() * 100 + '%';
-                particle.style.width = Math.random() * 4 + 2 + 'px';
-                particle.style.height = particle.style.width;
-                particle.style.animationDuration = Math.random() * 10 + 10 + 's';
-                particle.style.animationDelay = Math.random() * 15 + 's';
-                particlesContainer.appendChild(particle);
-            }
-        }
+## 🤝 Let's Connect!
 
-        // Add hover effects to tech items
-        document.querySelectorAll('.tech-item').forEach(item => {
-            item.addEventListener('mouseenter', function() {
-                this.style.background = 'linear-gradient(45deg, rgba(88, 166, 255, 0.2), rgba(188, 140, 255, 0.2))';
-            });
-            
-            item.addEventListener('mouseleave', function() {
-                this.style.background = 'rgba(22, 27, 34, 0.8)';
-            });
-        });
+<div align="center">
 
-        // Intersection Observer for animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhilashakapdnis@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abhilashk22)
 
-        const observer = new IntersectionObserver(function(entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, observerOptions);
+**📧 Ready to collaborate?**  
+**Drop me an email:** `abhilashakapdnis@gmail.com`
 
-        // Observe all animated elements
-        document.querySelectorAll('.info-card, .tech-item').forEach(el => {
-            observer.observe(el);
-        });
+</div>
 
-        // Initialize
-        document.addEventListener('DOMContentLoaded', function() {
-            createParticles();
-            
-            // Add stagger animation to tech items
-            const techItems = document.querySelectorAll('.tech-item');
-            techItems.forEach((item, index) => {
-                item.style.animationDelay = (index * 0.1) + 's';
-            });
-        });
+---
 
-        // Add typing animation completion
-        const titleElement = document.querySelector('.title');
-        titleElement.addEventListener('animationend', function() {
-            this.style.borderRight = 'none';
-        });
-    </script>
-</body>
-</html>
+## 💡 Fun Facts
+
+- 🔄 I'm passionate about version control and believe good Git practices can save the world
+- 🌱 Currently diving deep into GitOps - the future of deployment
+- 🎨 I enjoy both the creative and technical sides of development
+- 🚀 Always excited to learn and implement new technologies
+- ⚡ Fun fact: **Building elegant solutions one commit at a time**
+
+---
+
+<div align="center">
+
+### 🎵 *"Code is poetry written in logic"*
+
+![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
+
+**Thank you for visiting my profile! Let's build something amazing together! 🚀**
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://github.com/abhilashk22/abhilashk22/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+</div>
